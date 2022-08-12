@@ -1,0 +1,8 @@
+$ git lfs install
+$ git status
+Instalamos libreria: $ npm i whatsapp-web.js
+$ git lfs track "*.dll"
+$ git lfs track "*.exe"
+$ git add .gitattributes
+$ git status
+-Realizar commit y push normalmente
