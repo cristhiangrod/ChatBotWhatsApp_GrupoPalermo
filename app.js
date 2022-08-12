@@ -19,7 +19,8 @@ const withOutSession = () => {
     client.on('qr', qr => {
         qrcode.generate(qr, {small: true });
     });
-client.on('authenticated', (session) => {
+    
+    client.on('authenticated', (session) => {
     //Guardamos credenciales de la session para usar luego
     sessionData = session;
     fs.writeFile(SESSION_FILE_PATH, JSON.stringify(session),(err) => {
