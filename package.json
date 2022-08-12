@@ -1,0 +1,25 @@
+{
+  "name": "chatbotwhatsapp_grupopalermo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristhiangrod/ChatBotWhatsApp_GrupoPalermo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristhiangrod/ChatBotWhatsApp_GrupoPalermo/issues"
+  },
+  "homepage": "https://github.com/cristhiangrod/ChatBotWhatsApp_GrupoPalermo#readme",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "express": "^4.18.1",
+    "moment": "^2.29.4"
+  }
+}
